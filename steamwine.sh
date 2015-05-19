@@ -16,7 +16,7 @@
 #   Lara Maia <lara@craft.net.br> 2015
 #
 
-STEAMWINE_PREFIX="/home/lara/.local/share/wineprefixes/steam"
+STEAMWINE_PREFIX="$HOME/.local/share/wineprefixes/steam"
 STEAMWINE_PATH="$STEAMWINE_PREFIX/drive_c/Program Files/Steam"
 STEAMWINE_APPS="$STEAMWINE_PATH/steamapps"
 STEAMWINE_GAMES="$STEAMWINE_PATH/steamapps/common"
