@@ -26,9 +26,9 @@ function help() {
 
     printf "\nUse: $0 %23c execute steam client trough wine\n\n"
     printf "%5c $0 --reinstall %11c delete all steam files and related games\n"
-    printf "%43c and reinstall local steam client\n\n"
+    printf "%${#0}c %29c and reinstall local steam client\n\n"
     printf "%5c $0 --safereinstall %7c reinstall local steamwine client\n"
-    printf "%43c but keep downloaded games in library\n\n"
+    printf "%${#0}c %29c but keep downloaded games in library\n\n"
     printf "%5c $0 --relink %14c relink games library into $HOME\n\n"
     printf "%5c ========= GAMES PATCHES =========\n\n"
 
